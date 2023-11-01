@@ -1,0 +1,18 @@
+description: Ultralytics best model trained on data.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: '2023-11-01T09:05:15.127181'
+version: 8.0.200
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: 50 kph
+  1: bike lane
+  2: keep right
+  3: no u turn
+  4: pedestrian crossing
+  5: stop

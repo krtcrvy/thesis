@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['50 kph', 'bike lane', 'keep right', 'no u turn', 'pedestrian crossing', 'stop']
+
+roboflow:
+  workspace: kurt-carvey-cadenas-azq98
+  project: traffic-signs-mcarthur-highway
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kurt-carvey-cadenas-azq98/traffic-signs-mcarthur-highway/dataset/1
